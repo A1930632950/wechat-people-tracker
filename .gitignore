@@ -1,0 +1,26 @@
+# 依赖与本地文件
+node_modules/
+__pycache__/
+*.pyc
+
+# WorkBuddy 本地工作目录（含记忆、脚本、个人上下文，不上传）
+.workbuddy/
+
+# 运行时隐私数据：真实聊天记录与人物档案，仅本地保存
+data/people/*
+data/sources/*
+data/backup/*
+data/index.md
+data/followups.md
+
+# 保留占位文件，确保目录结构可用
+!data/people/.gitkeep
+!data/sources/.gitkeep
+!data/backup/.gitkeep
+
+# 系统与临时文件
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+~$*
